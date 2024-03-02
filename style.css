@@ -2,8 +2,8 @@
     width: 600px;
     height: 600px;
     display: grid;
-    grid-template-rows: 75px 75px 75px 75px 75px 75px 75px 75px ;
-    grid-template-columns:   75px 75px 75px 75px 75px 75px 75px 75px ;
+    grid-template-rows: repeat(8,1fr) ;
+    grid-template-columns:  repeat(8,1fr) ;
     position: absolute;
     left: 50%;
     top: 50%;

@@ -1,0 +1,24 @@
+.outer {
+    width: 600px;
+    height: 600px;
+    display: grid;
+    grid-template-rows: 75px 75px 75px 75px 75px 75px 75px 75px ;
+    grid-template-columns:   75px 75px 75px 75px 75px 75px 75px 75px ;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid black;
+}
+
+.item{
+    width: 75px;
+    height: 75px;
+}
+
+.box {
+    width: 75px;
+    height: 75px;
+    background-color: black;
+}
+
